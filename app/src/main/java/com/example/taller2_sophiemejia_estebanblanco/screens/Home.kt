@@ -52,7 +52,9 @@ fun Home(controller: NavController) {
                 .weight(1.2F)
                 .fillMaxWidth()
                 .padding(32.dp)
-                .clickable {  }
+                .clickable { controller.navigate(AppScreens.Map.name) }
+
+
         )
     }
 }
